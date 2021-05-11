@@ -14,16 +14,20 @@ body {
     background: #ffc0cb;
     border: 1px #000 solid;
     height: 200px;
-    text-align: center;
     padding: 15px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: relative;
+    text-align: center;
+}
+
+[class*="col"] span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 [class*="col"]>.row>[class*="col"] {
     height: 100%;
     background: #f07f80;
     border: 1px #fff solid;
-    width: 300px;
 }
