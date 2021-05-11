@@ -1,0 +1,25 @@
+body {
+    color: #000;
+}
+
+.container {
+    background: #006cfa;
+}
+
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    background: #ffc0cb;
+    border: 1px #000 solid;
+    height: 200px;
+    text-align: center;
+    padding: 15px;
+}
+
+[class*="col"]>.row>[class*="col"] {
+    height: 100%;
+    background: #f07f80;
+    flex-grow: 1;
+}
