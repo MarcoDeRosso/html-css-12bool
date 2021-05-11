@@ -1,0 +1,27 @@
+.black {
+    background: #000;
+}
+
+.green {
+    background: #83cf38;
+}
+
+.darkgreen {
+    background: #5fa714;
+}
+
+.lime {
+    background: #abf34c;
+}
+
+.skin {
+    background: #edd08f;
+}
+
+.row {
+    height: 100%;
+}
+
+[class*="col"] {
+    height: 50px;
+}
